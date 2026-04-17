@@ -1,0 +1,52 @@
+{
+  "inputDir": "C:\-=Букеты=-\2. Предварительный отбор с 6",
+  "outputValidDir": "C:\-=Букеты=-\4. С ценой",
+  "outputReviewDir": "C:\-=Букеты=-\4. С ценой\Мимо",
+  "logsDir": "LOGS",
+
+
+  "apiBaseUrl": "http://127.0.0.1:1234/v1",
+  "model": "google_gemma-4-e4b-it@iq4_xs",
+  "promptFile": "prompt.txt",
+
+  "imageWidthForModel": 512,
+  "jpegQualityForModel": 70,
+
+  "temperature": 0,
+  "topP": 1,
+  "maxTokens": 12,
+  "seed": 0,
+
+  "concurrency": 1,
+  "minRequestIntervalMs": 0,
+  "timeoutMs": 90000,
+  "maxRetries": 2,
+  "retryBaseDelayMs": 1500,
+
+  "minValidPrice": 1000,
+  "stopAfter": 0,
+  "resumeFromState": true,
+  "overwriteExisting": false,
+
+  "supportedExtensions": [
+    ".jpg",
+    ".jpeg",
+    ".png",
+    ".webp",
+    ".bmp",
+    ".tif",
+    ".tiff",
+    ".gif",
+    ".avif"
+  ],
+
+  "adaptiveSpeed": true,
+  "targetLatencyMs": 4000,
+  "minGapMs": 0,
+  "maxGapMs": 10000,
+  "initialGapMs": 0,
+  "decreaseStepMs": 100,
+  "increaseFactor": 1.7,
+  "ewmaAlpha": 0.2,
+  "cooldownAfterErrorMs": 1500
+}
