@@ -1,16 +1,16 @@
 {
-  "inputDir": "C:\-=Букеты=-\2. Предварительный отбор с 6",
-  "outputValidDir": "C:\-=Букеты=-\4. С ценой",
-  "outputReviewDir": "C:\-=Букеты=-\4. С ценой\Мимо",
+  "inputDir": "C:\-=Букеты=-\3. С ценником",
+  "outputValidDir": "C:\-=Букеты=-\3. С ценником\Цена",
+  "outputReviewDir": "C:\-=Букеты=-\3. С ценником\Мимо",
   "logsDir": "LOGS",
 
 
   "apiBaseUrl": "http://127.0.0.1:1234/v1",
-  "model": "google_gemma-4-e4b-it@iq4_xs",
+  "model": "google_gemma-4-26b-a4b-it@q4_k_m",
   "promptFile": "prompt.txt",
 
-  "imageWidthForModel": 512,
-  "jpegQualityForModel": 70,
+  "imageWidthForModel": 1024,
+  "jpegQualityForModel": 100,
 
   "temperature": 0,
   "topP": 1,
